@@ -2,6 +2,9 @@ This app is designed to run queries on the December 2020 New York Taxi trips dat
 retrieved from the following page: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 
+Proje.pdf file contains the project assignment description (in Turkish) and Rapor.pdf contains the report of the assignment giving detailed description of the algorithms and methods used (also in Turkish).
+
+
 -------------------------------------
 
 
