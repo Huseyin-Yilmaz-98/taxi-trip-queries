@@ -1,0 +1,43 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Zone {
+  id        Int    @id
+  borough   String @db.VarChar(200)
+  zone      String @db.VarChar(200)
+  latitude  Float
+  longitude Float
+
+  tripsWithThisStartingPoint Trip[] @relation("tripsWithThisStartingPoint")
+  tripsWithThisEndingPoint   Trip[] @relation("tripsWithThisEndingPoint")
+  @@map("zone")
+}
+
+model Trip {
+  id                   Int      @id @default(autoincrement())
+  pickedUpAt           DateTime @map("picked_up_at") @db.Timestamp
+  droppedOffAt         DateTime @map("dropped_off_at") @db.Timestamp
+  passengerCount       Int      @map("passenger_count")
+  distance             Float
+  pickUpLocationId     Int      @map("pick_up_location_id")
+  dropOffLocationId    Int      @map("drop_off_location_id")
+  fareAmount           Float    @map("fare_amount")
+  extra                Float
+  mtaTax               Float    @map("mta_tax")
+  tip                  Float
+  tolls                Float
+  improvementSurcharge Float    @map("improvement_surcharge")
+  totalAmount          Float    @map("total_amount")
+  congestionSurcharge  Float    @map("congestion_surcharge")
+  pickUpZone           Zone     @relation(fields: [pickUpLocationId], references: [id], name: "tripsWithThisStartingPoint")
+  dropOffZone          Zone     @relation(fields: [dropOffLocationId], references: [id], name: "tripsWithThisEndingPoint")
+  tripDate             DateTime @map("trip_date")
+
+  @@map("trip")
+}
