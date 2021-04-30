@@ -30,31 +30,31 @@ The API key must be placed in the ".env" file and in "AndroidManifest.xml"
 Screenshots:
 
 
-![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/0.jpg?raw=true)
+![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/0.png?raw=true)
 
 
-![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/1.jpg?raw=true)
+![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/1.png?raw=true)
 
 
-![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/2.jpg?raw=true)
+![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/2.png?raw=true)
 
 
-![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/3.jpg?raw=true)
+![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/3.png?raw=true)
 
 
-![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/4.jpg?raw=true)
+![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/4.png?raw=true)
 
 
-![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/5.jpg?raw=true)
+![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/5.png?raw=true)
 
 
-![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/6.jpg?raw=true)
+![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/6.png?raw=true)
 
 
-![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/7.jpg?raw=true)
+![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/7.png?raw=true)
 
 
-![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/8.jpg?raw=true)
+![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/8.png?raw=true)
 
 
-![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/9.jpg?raw=true)
+![](https://github.com/Huseyin-Yilmaz-98/taxi-trip-queries/blob/main/screenshots/9.png?raw=true)
